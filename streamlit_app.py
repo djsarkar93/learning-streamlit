@@ -8,7 +8,7 @@ if __name__ == '__main__':
   
   st.subheader('Images')
   st.markdown('API Reference: [here](https://docs.streamlit.io/library/api-reference/media/st.image)')
-  st.image('resources/image.jpg', width = 250)
+  st.image('resources/image.jpg', width = 350)
 
   st.subheader('Audio')
   st.markdown('API Reference: [here](https://docs.streamlit.io/library/api-reference/media/st.audio)')
