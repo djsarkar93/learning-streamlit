@@ -34,6 +34,6 @@ if __name__ == '__main__':
   df_1 = pd.DataFrame({'first column': [1, 2, 3, 4], 'second column': [10, 20, np.nan, np.inf]})
   st.write(df_1)
   df_2 = pd.DataFrame(np.random.randn(200, 3), columns=['a', 'b', 'c'])
-  c = alt.Chart(df).mark_circle().encode(x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
+  c = alt.Chart(df_2).mark_circle().encode(x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
   st.write(c)
   
